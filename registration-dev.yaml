@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: REGISTRATION-SERVICE
+  mvc:
+    static-path-pattern: /resources/**
+    view:
+      prefix: /WEB-INF/pages/
+      suffix: .jsp
+    
+  datasource:
+    password: '!@123Rahul'
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: bhara2dt_rahul
+    url: jdbc:mysql://119.18.54.126:3306/bhara2dt_uat
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: 'true'
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    
+ 
+    
+server:
+  port: '9012'
+  
+management:
+  security:
+    enabled=false
