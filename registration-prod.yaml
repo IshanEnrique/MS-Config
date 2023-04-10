@@ -1,6 +1,4 @@
 spring:
-  application:
-    name: REGISTRATION-SERVICE
   mvc:
     static-path-pattern: /resources/**
     view:
