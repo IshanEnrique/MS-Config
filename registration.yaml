@@ -6,7 +6,7 @@ spring:
       suffix: .jsp
     
   datasource:
-    url: 'jdbc:h2:mem:devdb'
+    url: 'jdbc:h2:mem:'
   h2:
     console:
       enabled: true
