@@ -9,7 +9,7 @@ spring:
     password: '!@123Rahul'
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: bhara2dt_rahul
-    url: jdbc:mysql://119.18.54.126:3306/bhara2dt_uat
+    url: jdbc:mysql://119.18.54.126:3306/bhara2dt_uat?useSSL=false&allowPublicKeyRetrieval=true
   jpa:
     hibernate:
       ddl-auto: update
