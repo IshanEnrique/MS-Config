@@ -3,6 +3,7 @@ user:
     profile:
       save: Congratulations Dear {}, Your profile has been successfully created on {}.
       update: Congratulations Dear {}, Your profile has been successfully updated on {}.
+      update-exception: EXCEPTION {} , Update Voilation encountered on {} with attributes {}. Request failed on {}.
       update-failure: Dear {}, We are sorry to inform you that profile update process could not processed on {} , due to 'NO Data or More Than One Data Exists'.
       failed-error: Dear {}, We are sorry to inform you that profile creation process could not processed on {}.
       common-success: Your request has been successfully completed on {}.
