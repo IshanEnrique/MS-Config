@@ -1,0 +1,13 @@
+eureka:
+  instance:
+    hostname: localhost
+    prefer-ip-address: true
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+    
+#*********************  DISABLING SECURITY FOR ACTUATOR ENDPOINTS **************
+
+management:
+  security:
+    enabled: false
