@@ -1,0 +1,23 @@
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: ${EUREKA_CLIENT_SERVICE_URL:http://172.18.0.3:8761/eureka}
+  instance:
+    prefer-ip-address: true
+    
+endpoints:
+  shutdown:
+    enabled: true
+    
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    shutdown:
+      enabled: true
+    
+    
